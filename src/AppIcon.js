@@ -8,6 +8,8 @@ class AppIcon extends Component {
 				className={this.props.className}
 				src={Config.icon}
 				style={this.props.style}
+				width={this.props.width}
+				height={this.props.height}
 				alt={Config.name + " app icon"}
 			/>
 		);

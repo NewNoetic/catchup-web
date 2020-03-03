@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import AppNavbar from "./Navbar";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Beta from "./Beta";
-import "./index.css";
 import GoogleAnalytics from "./GoogleAnalytics";
 import Privacy from "./Privacy";
 
@@ -17,6 +17,7 @@ class App extends Component {
       <div>
         <GoogleAnalytics />
         <AppNavbar />
+        <div className="my-5"></div>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />

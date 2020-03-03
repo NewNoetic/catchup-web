@@ -1,46 +1,43 @@
 import React, { Component } from "react";
-import { Container, Navbar, Nav/*, NavItem*/ } from "react-bootstrap";
-import { Link } from "react-router-dom";
-// import { LinkContainer } from "react-router-bootstrap";
-import "./Navbar.css";
+import { Container, Navbar, Nav } from "react-bootstrap";
 import AppIcon from "./AppIcon";
 import Config from "./config.json";
 
 class AppNavbar extends Component {
   render() {
     let nav = (
-      <div>
-        <Nav>
-          {/* <LinkContainer to="/about">
-            <NavItem disabled eventKey={1}>About</NavItem>
-          </LinkContainer>
-          <LinkContainer to="/beta">
-            <NavItem disabled eventKey={2}>Beta</NavItem>
-          </LinkContainer>
-          <LinkContainer to="/contact">
-            <NavItem disabled eventKey={3}>Contact</NavItem>
-          </LinkContainer> */}
-        </Nav>
-      </div>
+      <Nav>
+        <Navbar.Brand
+          href="/"
+        >
+          <AppIcon
+            height="30"
+            width="auto"
+            className="d-inline-block mr-1"
+          />
+          {' '}
+          { Config.name }
+        </Navbar.Brand>
+        <Nav.Link href="https://www.notion.so/newnoetic/CatchUp-60c71d58448841cfae92d24ca6b11994">
+          About
+        </Nav.Link>
+        <Nav.Link href="#">
+          Beta
+        </Nav.Link>
+        <Nav.Link href="/contact">
+          Contact
+        </Nav.Link>
+      </Nav>
     );
 
     return (
       <Container>
-        <Navbar>
-        <Navbar.Brand style={{
-          paddingLeft: 0,
-        }}>
-          <AppIcon style={{
-            height: "32px",
-            width: "auto",
-            paddingRight: "1rem",
-            paddingBottom: "1rem"
-          }}
-            className={"pull-left"}/>
-          <Link to="/">{Config.name}</Link>
-        </Navbar.Brand>
-        {nav}
-      </Navbar>
+        <Navbar expand="lg" className="pt-5 pl-0 ml-0">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            {nav}
+          </Navbar.Collapse>
+        </Navbar>
       </Container>
     );
   }

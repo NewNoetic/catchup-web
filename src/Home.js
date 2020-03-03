@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Button/*, Card */} from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import "./Home.css";
 // import Mailchimp from "./Mailchimp";
 import DemoVideo from "./DemoVideo";
 import AppIcon from "./AppIcon";
@@ -12,39 +11,24 @@ class Home extends Component {
     return (
       <Container>
         <Row>
-          <Col md={6}>
-            <div className="header">
+          <Col className="mt-5">
               <AppIcon
-                style={{ height: "128px", width: "auto", paddingTop: "3rem" }}
+                height="80"
+                width="auto"
               />
-              <br />
-              <br />
-              <h1>{Config.tagline}</h1>
-              <br />
-              <h3 style={{ lineHeight: "3.5rem" }}>{Config.description}</h3>
-              <br />
-              <br />
-              <LinkContainer to={"/"}>
-                <Button>Get {Config.name}</Button>
-              </LinkContainer>
-            </div>
+              <h1 className="mt-5">{Config.tagline}</h1>
+              <h5 className="mt-4" style={{ lineHeight: "2rem" }}>{Config.description}</h5>
+              <Button className="mt-5" variant="primary" size="lg" href="#">Get {Config.name}</Button>
           </Col>
-          <br />
-          <br />
-          <Col md={6}>
+          <Col className="mb-5 ml-5">
             <DemoVideo />
           </Col>
         </Row>
-        <br />
-        <br />
-        <br />
-        <br />
-        {/* <br />
-        <Row>
-          <Col md={6}>
+        {/* <Row>
+          <Col>
             <Mailchimp />
-          </Col>{" "}
-          <Col md={6}>
+          </Col>
+          <Col>
             <Card>
               <Card.Body>
                 <Card.Text>

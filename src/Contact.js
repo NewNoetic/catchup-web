@@ -7,7 +7,7 @@ class Contact extends Component {
     return (
       <Container>
         <Row style={{ height: "30rem" }}>
-          <Col md={6}>
+          <Col>
             <h1>Contact</h1>
             <br />
             <p>Drop us a line at {Config.contact_email}</p>

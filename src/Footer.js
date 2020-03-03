@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Config from "./config.json";
-import AppIcon from "./AppIcon";
 
 class Footer extends Component {
   render() {
@@ -25,7 +24,7 @@ class Footer extends Component {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/about">About</Link>
+                  <a href="https://www.notion.so/newnoetic/CatchUp-60c71d58448841cfae92d24ca6b11994" target="_blank">About</a>
                 </li>
                 <li>
                   <Link to="/contact">Contact</Link>
@@ -55,14 +54,6 @@ class Footer extends Component {
           <div class="text-center" style={{ paddingTop: "4rem" }}>
              {"© " + Config.company + " " + (new Date()).getFullYear()}
           </div>
-          <AppIcon
-            style={{
-	          height: "64px",
-	          width: "auto",
-	          marginTop: "6rem",
-	          marginBottom: "3rem"
-          }}
-          className={"center-block"}/>
         </Container>
       </footer>
     );
