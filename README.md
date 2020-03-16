@@ -1,5 +1,5 @@
 # CatchUp website
-The website for the RemoteAssistance app
+The website for the Catchup app
 
 ## Manual build and deploy
 - `npm install`
