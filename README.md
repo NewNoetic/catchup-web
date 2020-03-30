@@ -1,4 +1,4 @@
-# CatchUp website
+# Ketchup website
 The website for the Catchup app
 
 ## Manual build and deploy
