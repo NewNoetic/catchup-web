@@ -24,7 +24,7 @@ class Footer extends Component {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <a href="https://www.notion.so/newnoetic/CatchUp-60c71d58448841cfae92d24ca6b11994" target="_blank">About</a>
+                  <a href="https://www.notion.so/newnoetic/CatchUp-60c71d58448841cfae92d24ca6b11994" target="_blank" rel="noopener noreferrer">About</a>
                 </li>
                 <li>
                   <Link to="/contact">Contact</Link>
@@ -51,7 +51,7 @@ class Footer extends Component {
               </ul>
             </Col>
           </Row>
-          <div class="text-center" style={{ paddingTop: "4rem" }}>
+          <div className="text-center" style={{ paddingTop: "4rem" }}>
              {"© " + Config.company + " " + (new Date()).getFullYear()}
           </div>
         </Container>

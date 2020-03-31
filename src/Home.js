@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Button/*, Card */} from "react-bootstrap";
-import { LinkContainer } from "react-router-bootstrap";
-// import Mailchimp from "./Mailchimp";
+import { Container, Row, Col, Button} from "react-bootstrap";
 import DemoVideo from "./DemoVideo";
 import AppIcon from "./AppIcon";
 import Config from "./config.json";

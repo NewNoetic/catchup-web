@@ -8,14 +8,12 @@ import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Beta from "./Beta";
-import GoogleAnalytics from "./GoogleAnalytics";
 import Privacy from "./Privacy";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <GoogleAnalytics />
         <AppNavbar />
         <div className="my-5"></div>
         <Switch>
