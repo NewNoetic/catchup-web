@@ -18,10 +18,10 @@ class AppNavbar extends Component {
           {' '}
           { Config.name }
         </Navbar.Brand>
-        <Nav.Link href="https://www.notion.so/newnoetic/CatchUp-60c71d58448841cfae92d24ca6b11994">
+        <Nav.Link href="https://www.notion.so/newnoetic/CatchUp-60c71d58448841cfae92d24ca6b11994" target="_blank" rel="noopener noreferrer">
           About
         </Nav.Link>
-        <Nav.Link href="#">
+        <Nav.Link href="https://testflight.apple.com/join/5HZLtHAd" target="_blank" rel="noopener noreferrer">
           Beta
         </Nav.Link>
         <Nav.Link href="/contact">
