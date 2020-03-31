@@ -6,10 +6,10 @@ class GoogleAnalytics extends React.Component {
   componentWillUpdate({ location, history }) {
     const gtag = window.gtag;
 
-    // if (location.pathname === this.props.location.pathname) {
-    //   // don't log identical link clicks (nav links likely)
-    //   return;
-    // }
+    if (location.pathname === this.props.location.pathname) {
+      // don't log identical link clicks (nav links likely)
+      return;
+    }
 
     if (history.action === "PUSH" && typeof gtag === "function") {
       gtag("config", Config.google_analytics, {
