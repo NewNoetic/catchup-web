@@ -9,16 +9,16 @@ class Home extends Component {
     return (
       <Container>
         <Row>
-          <Col className="mt-5">
+          <Col sm={12} md={6} className="my-5">
               <AppIcon
                 height="80"
                 width="auto"
               />
               <h1 className="mt-5">{Config.tagline}</h1>
               <h5 className="mt-4" style={{ lineHeight: "2rem" }}>{Config.description}</h5>
-              <Button className="mt-5" variant="primary" size="lg" href="#">Get {Config.name}</Button>
+              <Button className="mt-5" variant="primary" size="lg" href="https://testflight.apple.com/join/5HZLtHAd" target="_blank" rel="noopener noreferrer">Get {Config.name}</Button>
           </Col>
-          <Col className="mb-5 ml-5">
+          <Col sm={12} md={6} className="mb-5 ml-md-5">
             <DemoVideo />
           </Col>
         </Row>

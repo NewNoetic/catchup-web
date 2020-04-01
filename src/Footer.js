@@ -19,7 +19,7 @@ class Footer extends Component {
               <h6 className="text-uppercase">
                 <strong>Site map</strong>
               </h6>
-              <ul class="list-unstyled">
+              <ul className="list-unstyled">
                 <li>
                   <Link to="/">Home</Link>
                 </li>
@@ -35,7 +35,7 @@ class Footer extends Component {
               <h6 className="text-uppercase">
                 <strong>Social media</strong>
               </h6>
-              <ul class="list-unstyled">
+              <ul className="list-unstyled">
                 <li><a href={`https://twitter.com/${Config.twitter}`}>Twitter</a></li>
               </ul>
             </Col>
@@ -43,7 +43,7 @@ class Footer extends Component {
               <h6 className="text-uppercase">
                 <strong>Legal</strong>
               </h6>
-              <ul class="list-unstyled">
+              <ul className="list-unstyled">
                 {/*<li>Terms of Service</li>*/}
                 <li>
                   <Link to="/privacy">Privacy Policy</Link>

@@ -7,7 +7,7 @@ class DemoVideo extends Component {
     return (
       <div className="demo-video">
         <div className="phone-frame center-block">
-          <video autoPlay loop muted controls preload poster={Config.demo_video_cover}>
+          <video autoPlay loop muted controls preload="auto" poster={Config.demo_video_cover}>
             <source src={Config.demo_video} />
           </video>
         </div>
