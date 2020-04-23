@@ -16,7 +16,7 @@ class Home extends Component {
               />
               <h1 className="mt-5">{Config.tagline}</h1>
               <h5 className="mt-4" style={{ lineHeight: "2rem" }}>{Config.description}</h5>
-              <Button className="mt-5" variant="primary" size="lg" href="https://testflight.apple.com/join/5HZLtHAd" target="_blank" rel="noopener noreferrer">Get {Config.name}</Button>
+              <Button className="mt-5" variant="primary" size="lg" href="https://apps.apple.com/us/app/ketchup-stay-in-touch/id1501100076" target="_blank" rel="noopener noreferrer">Get {Config.name}</Button>
           </Col>
           <Col sm={12} md={5} className="mb-5 ml-md-5">
             <DemoVideo />
