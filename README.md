@@ -1,5 +1,5 @@
 # Ketchup website
-The website for the Catchup app
+The website for the Ketchup app
 
 ## Manual build and deploy
 - `npm install`
@@ -12,3 +12,6 @@ The website for the Catchup app
 
 - `npm install -g now`
 - in root of project `now login`
+
+# Deploy
+- push to master branch
