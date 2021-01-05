@@ -1,13 +1,13 @@
 {
   "name": "Ketchup",
-  "tagline": "Stay in touch with people you care about.",
-  "description": "Stay in touch with people you care about without making it feel like work. Ketchup nudges you at the right time to reach out to family, friends and colleagues.",
-  "about": "Download the Ketchup iOS app — we collect no data, have no servers and most importantly: your contacts never leave your phone.",
+  "tagline": "Be a better friend.",
+  "description": "We all love catching up with friends, but hey, life gets busy. Ketchup will nudge you at the right time to reach out to them.",
+  "about": "Download the Ketchup iOS app. No contacts permissions. Minimal analytics. All the texts, phone calls, emails, etc are done through iOS, so the app can’t access that information at all. And lastly the app is open source so anyone can verify all the above 😇",
   "icon": "https://i.imgur.com/9ZuVGCc.png",
   "demo_video": "https://i.imgur.com/Ga923rU.mp4",
   "demo_video_cover": "https://i.imgur.com/uLRNGGl.png",
   "google_analytics": "UA-162307099-1",
   "contact_email": "ketchup@newnoetic.com",
-  "twitter": "newnoetic",
+  "twitter": "sidhantgandhi",
   "company": "NewNoetic, Inc."
 }
