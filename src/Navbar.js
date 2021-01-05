@@ -18,7 +18,7 @@ class AppNavbar extends Component {
           {' '}
           { Config.name }
         </Navbar.Brand>
-        <Nav.Link href="/about" target="_blank" rel="noopener noreferrer">
+        <Nav.Link href="/about">
           About
         </Nav.Link>
         <Nav.Link href="https://apps.apple.com/us/app/ketchup-stay-in-touch/id1501100076" target="_blank" rel="noopener noreferrer">

@@ -15,7 +15,7 @@ class About extends Component {
               {Config.about}
             </p>
             <br />
-            <LinkContainer to={"/beta"}>
+            <LinkContainer to={"https://apps.apple.com/us/app/ketchup-stay-in-touch/id1501100076"}>
               <Button>Get {Config.name}</Button>
             </LinkContainer>
           </Col>
